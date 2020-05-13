@@ -35,7 +35,7 @@
 
 p(X|Y)*p(Y) ~  p(y<sub>1</sub>)*p(x<sub>1</sub>|y<sub>1</sub>)*p(y<sub>2</sub>|y<sub>1</sub>)*p(x<sub>2</sub>|y<sub>2</sub>)*p(y<sub>3</sub>|y<sub>2</sub>)...*p(y<sub>n</sub>|y<sub>n-1</sub>)*p(x<sub>n</sub>|y<sub>n</sub>) 
  
-其中p(y<sub>1</sub>)可由初始状态概率得到，p(x<sub>i</sub>|y<sub>1</sub>)由观测概率矩阵得到，p(y<sub>t</sub>|y<sub>t-1</sub>)由转移概率矩阵得到。
+其中p(y<sub>1</sub>)可由初始状态概率得到，p(x<sub>i</sub>|y<sub>i</sub>)由观测概率矩阵得到，p(y<sub>t</sub>|y<sub>t-1</sub>)由转移概率矩阵得到。
 
 ## 二、最大化隐藏序列概率--viterbi算法
 
